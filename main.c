@@ -7,6 +7,10 @@
 #include <pthread.h>
 #include "prototypes.h"
 
+
+// Kacper Osadowski all right reserved for UWr <3
+
+
 char takeMaskAndIzolateIp(char *ip){
     char* idx = strchr(ip,'/');
     ip[idx-ip]='\0';
